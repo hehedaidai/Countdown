@@ -1,0 +1,17 @@
+﻿@charset "utf-8";
+body,div,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td,
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{margin:0;padding:0;}
+body,button,input,select,textarea{font:14px/1.5 "微软雅黑","Microsoft Yahei",Arial,Helvetica,sans-serif;}
+address,caption,cite,code,dfn,em,strong,var,em,i{font-style:normal;font-weight:normal}
+a{color:#1d79b4;text-decoration:none;outline:0 none;}
+a:hover{color:#98bff9;text-decoration:none;}
+.wp{width:1200px;margin:0 auto;}
+
+/*countDown css*/
+.count-lists{}
+.count-lists li{ display: block; margin-top: 20px; font-size: 18px;}
+.count-lists li:after{clear:both;content:" ";display:block;height:0;visibility:hidden;}
+.count-lists li span{ float: left; margin-right: 10px; text-align: center; height: 30px; line-height: 30px;}
+.count-lists li .title{ width: 170px; color: #ccc;}
+.count-lists li span em{ padding-left: 5px; color: #ccc;}
+.count-lists li .end{ color: red; width: 150px; text-align: left;}
